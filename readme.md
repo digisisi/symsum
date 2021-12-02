@@ -9,7 +9,7 @@ Datasets should go in `./data`. CIFAR datasets are automatically downloaded ther
 The Tiny ImageNet dataset should be manually put there.  
 Implementation of SymSum and its variants can be found in `models/activations.py`.
 
-The code is tested with PyTorch 1.8.1 and Torchvision 0.9.1 with CUDA 11.2.  
+The code is tested with Python 3.8, PyTorch 1.8.1 and Torchvision 0.9.1 with CUDA 11.2.  
 Minor modifications are required to run with the latest PyTorch because some modules have been moved.
 
 Example command:
