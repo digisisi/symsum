@@ -18,4 +18,4 @@ python train.py -batch_size 64 -epochs 120 -model res50 -norm_layer batch -bn_af
 ```
 
 ### Note
-A CUDA optimized version of SymSum that achieves the same performance as ReLU will be added [here](https://github.com/digisisi/symsum_cuda).
+A CUDA optimized version of SymSum (that achieves the same speed and memory performance as ReLU) will be added [here](https://github.com/digisisi/symsum_cuda).
