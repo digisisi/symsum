@@ -17,3 +17,5 @@ Example command:
 python train.py -batch_size 64 -epochs 120 -model res50 -norm_layer batch -bn_affine -bn_rs -lr .05 -weight_decay 5e-5 -augs mir randcrop colorjit -activation symsum -cifar 100 -symmetry_corr 1 -init_gain_param 1.4
 ```
 
+### Note
+A CUDA optimized version of SymSum that achives the same performance as ReLU will be added [here](https://github.com/digisisi/symsum_cuda).
